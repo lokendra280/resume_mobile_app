@@ -62,7 +62,7 @@ class OnBoardingPage extends StatelessWidget {
       height: MediaQuery.of(context).size.height * 0.4,
       width: double.infinity,
       child: Padding(
-        padding: EdgeInsets.symmetric(vertical: 12.0, horizontal: 24.0),
+        padding: const EdgeInsets.symmetric(vertical: 12.0, horizontal: 24.0),
         child: Image.asset('assets/cv.png'),
       ),
     );

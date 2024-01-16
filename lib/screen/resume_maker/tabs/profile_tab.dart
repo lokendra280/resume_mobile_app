@@ -146,9 +146,9 @@ class _ProfileTabState extends State<ProfileTab> {
   void _onAddProfile() {
     FocusScope.of(context).requestFocus(new FocusNode());
     final _bloc = ResumeMakerBlocProvider.of(context);
-    if (_bloc.userImage == null) {
-      return;
-    }
+    // if (_bloc.userImage == null) {
+    //   return;
+    // }
     if (_formKey.currentState!.validate()) {
       _formKey.currentState?.save();
       _bloc.profile = Profile(

@@ -18,7 +18,7 @@ class ResumeMakerBloc {
   List<Reference> referenceList = <Reference>[];
   List<Language> languageList = <Language>[];
   late Profile profile;
-  late File userImage;
+  // late final File userImage;
   late String profileSummary;
   late Contact contact;
 
